@@ -15,7 +15,7 @@ public class PlayerLetters : MonoBehaviour
     private void Start() {
         thisLetter = this.GetComponent<Text>();
 
-        letterValue = thisLetter.text;
+        
     }
     private void Update() {
         

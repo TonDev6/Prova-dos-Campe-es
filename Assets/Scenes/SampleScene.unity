@@ -1859,7 +1859,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 227399219}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CharCreation, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &228449885
 GameObject:
   m_ObjectHideFlags: 0
@@ -9114,59 +9126,59 @@ MonoBehaviour:
   sevenEmptyCharacter: {fileID: 1416831860}
   eightEmptyCharacter: {fileID: 985975105}
   charMapDigts:
-  - {fileID: 227399215}
-  - {fileID: 252224147}
-  - {fileID: 901475401}
-  - {fileID: 595125828}
-  - {fileID: 1741086370}
-  - {fileID: 461648316}
-  - {fileID: 1993081641}
-  - {fileID: 571268800}
-  - {fileID: 556507820}
-  - {fileID: 875246037}
-  - {fileID: 263939557}
-  - {fileID: 612693013}
-  - {fileID: 101871852}
-  - {fileID: 1855628841}
-  - {fileID: 1407125857}
-  - {fileID: 32794635}
-  - {fileID: 41763773}
-  - {fileID: 613625198}
-  - {fileID: 700410076}
-  - {fileID: 604299736}
-  - {fileID: 1528806115}
-  - {fileID: 2133737956}
-  - {fileID: 1940902703}
-  - {fileID: 1095222396}
-  - {fileID: 1868134787}
-  - {fileID: 801405247}
-  - {fileID: 808775420}
-  - {fileID: 741604777}
-  - {fileID: 755018975}
-  - {fileID: 228449885}
-  - {fileID: 1160202861}
-  - {fileID: 1404613009}
-  - {fileID: 33768467}
-  - {fileID: 486174152}
-  - {fileID: 349029207}
-  - {fileID: 105498468}
-  - {fileID: 1297677750}
-  - {fileID: 1138333358}
-  - {fileID: 510797922}
-  - {fileID: 1119579733}
-  - {fileID: 214507505}
-  - {fileID: 863479413}
-  - {fileID: 732728954}
-  - {fileID: 606039165}
-  - {fileID: 1407160252}
-  - {fileID: 45309444}
-  - {fileID: 1243175827}
-  - {fileID: 754384511}
-  - {fileID: 510513763}
-  - {fileID: 1584020174}
-  - {fileID: 992130579}
-  - {fileID: 1891692276}
-  firstCharacter: {fileID: 2047914864}
+  - A
+  - B
+  - C
+  - D
+  - E
+  - F
+  - G
+  - H
+  - I
+  - J
+  - K
+  - L
+  - M
+  - N
+  - O
+  - P
+  - Q
+  - R
+  - S
+  - T
+  - U
+  - V
+  - W
+  - X
+  - Y
+  - Z
+  - a
+  - b
+  - c
+  - d
+  - e
+  - f
+  - g
+  - h
+  - i
+  - j
+  - k
+  - l
+  - m
+  - n
+  - o
+  - p
+  - q
+  - r
+  - s
+  - t
+  - u
+  - v
+  - w
+  - x
+  - y
+  - z
+  firstCharacter: {fileID: 0}
   scndCharacter: {fileID: 1978486650}
   thirdCharacter: {fileID: 1132728278}
   fourCharacter: {fileID: 245495285}

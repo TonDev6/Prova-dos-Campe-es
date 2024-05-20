@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
@@ -11,9 +12,8 @@ public class GameMenu : MonoBehaviour
     [SerializeField] private Image continueSubline;
     [SerializeField] private Image quitGameSubline;
 
-    [SerializeField] private GameObject mainMenu;
-    [SerializeField] private GameObject charCr;
-
+    private MenuControls menuControls;
+    
     
     public int ngSubline = 1;
     public int cntSubline = 0;
@@ -21,31 +21,43 @@ public class GameMenu : MonoBehaviour
 
     public int menuOrder = 1;
 
-    private int menuSelection;
+    private string ngScene;
 
-    public void Awake() {
-        
+    private void Awake() {
+
         newGameSubline.fillAmount = ngSubline;
 
-        charCr.SetActive(false);
+        menuControls = new MenuControls();
+
+        ngScene = "CharacterCreation";
+
     }
 
-    private void Update() {
-        
+    private void OnUP() {
+        menuOrder--;
+    }
+
+    private void OnDOWN() {
+        menuOrder++;
+    }
+
+    private void OnSubmit() {
+        if (menuOrder == 1)
+        {
+
+           SceneManager.LoadScene(ngScene);
+
+        }
+    }
+
+
+    void Update()
+    {
+
         newGameSubline.fillAmount = ngSubline;
         continueSubline.fillAmount = cntSubline;
         quitGameSubline.fillAmount = quitSubline;
-
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            menuOrder++;
-        }
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            menuOrder--;
-        }
-
+        
         if (menuOrder == 1)
         {
             ngSubline = 1;
@@ -73,33 +85,5 @@ public class GameMenu : MonoBehaviour
             menuOrder = 3;
         }
 
-        
-
-        
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-
-            if (menuOrder == 1)
-            {
-
-                mainMenu.SetActive(false);
-                charCr.SetActive(true);
-
-            } else if (menuOrder == 2)
-            {
-
-
-
-            } else if (menuOrder == 3)
-            {
-
-
-
-            }
-
-        }
-
-
     }
-
 }

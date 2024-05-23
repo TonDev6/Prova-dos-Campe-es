@@ -770,6 +770,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345587031}
   m_CullTransparentMesh: 1
+--- !u!1 &378285590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378285591}
+  - component: {fileID: 378285593}
+  - component: {fileID: 378285592}
+  m_Layer: 5
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &378285591
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378285590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 979424328}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.00086975, y: 141}
+  m_SizeDelta: {x: 290, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &378285592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378285590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8207547, g: 0.7190989, b: 0.14324492, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: RECUPERANDO ATRIBUTOS
+--- !u!222 &378285593
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378285590}
+  m_CullTransparentMesh: 1
 --- !u!1 &385504505
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,6 +941,7 @@ GameObject:
   - component: {fileID: 504014655}
   - component: {fileID: 504014657}
   - component: {fileID: 504014656}
+  - component: {fileID: 504014658}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -881,12 +962,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 979424328}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00085449, y: 55}
-  m_SizeDelta: {x: 536.9, y: 185.1207}
+  m_AnchoredPosition: {x: 0.00085449, y: 40.146027}
+  m_SizeDelta: {x: 536.9, y: 155.4127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &504014656
 MonoBehaviour:
@@ -910,18 +991,23 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 3
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "In\xEDcio da aventura."
+  m_Text: "\xC9 mais um dia quent\xEDssimo e a temperatura no tombadilho e pegajoso
+    \xE9 insuport\xE1vel. O ar est\xE1 denso com o cheiro acre dos corpos suados.
+    N\xE3o \xE9 permitido falar e o \xFAnico barulho ouvido al\xE9m do rangido mon\xF3tono
+    do navio \xE9 o do met\xF3dico e agudo estalido do chicote, e do agoniado grito
+    que se segue. \"Remem com mais for\xE7a, seus cachorros!\" grita o capataz caolho,
+    assim que estala seu chicote mais uma vez."
 --- !u!222 &504014657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -930,6 +1016,297 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504014654}
   m_CullTransparentMesh: 1
+--- !u!114 &504014658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504014654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa2e18f01907564bbfa4423e31cdba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutoTexts:
+  - "Deseja receber instru\xE7\xF5es? "
+  - "Antes de embarcar na aventura, voc\xEA deve primeiro determinar suas for\xE7as
+    e fraquezas. Use os dados para determinar o valor inicial de cada atributo, ou
+    opte por valores pr\xE9-definidos que podem oferecer certo desafio ou vantagem
+    para sua caminhada. "
+  - "Os atributos em ToC definir\xE3o diversos fatores durante a aventura, como o
+    quanto voc\xEA \xE9 bom em acertar golpes, ou quantos golpes voc\xEA aguenta
+    levar antes de acabar sua jornada. Seus valores atuais n\xE3o poder\xE3o exceder
+    seus valores iniciais/m\xE1ximos, exceto em ocasi\xF5es raras que podem ser encontradas
+    durante o jogo. "
+  - "PODER define sua habilidade de combate e sua for\xE7a em geral, quanto maior,
+    melhor. ENERGIA reflete sua constitui\xE7\xE3o, sua vontade de viver, sua determina\xE7\xE3o
+    e aptid\xE3o como um todo. Quanto mais pontos de ENERGIA, mais tempo voc\xEA
+    ser\xE1 capaz de sobreviver. Seus pontos de SORTE indicam o qu\xE3o sortudo voc\xEA
+    \xE9 naturalmente. Com este atributo voc\xEA pode mudar o resultado de alguma
+    situa\xE7\xE3o, ou pior\xE1-lo, caso n\xE3o seja t\xE3o sortudo assim. "
+  - "Durante o Torneio dos Campe\xF5es, voc\xEA enfrentar\xE1 diversos monstros e
+    inimigos, al\xE9m de outros desafios. Quando o momento de lutar por sua vida
+    chegar, os dados no canto inferior-direito da tela se tornar\xE3o ativos, de
+    acordo com a necessidade. Use-os para fazer suas rolagens e definir suas falhas
+    e sucessos. "
+  - "Na tela ser\xE3o exibidos os atributos da criatura que est\xE1 enfrentando.
+    A cada turno haver\xE1 uma contesta\xE7\xE3o de 'For\xE7a de Ataque' entre voc\xEA
+    e seu(s) inimigo(s). O vencedor da contesta\xE7\xE3o causa 2 de dano ao advers\xE1rio,
+    subtraindo este dano do valor atual de sua ENERGIA. O primeiro que esgotar sua
+    ENERGIA \xE9 derrotado. "
+  - "Em diversas ocasi\xF5es lhe ser\xE1 permitido o uso de SORTE para alterar certos
+    resultados. Quando escolher usar sua SORTE, dever\xE1 realizar o procedimento
+    conhecido como 'Teste sua Sorte', rolando dados-duplos. Se o valor adquirido
+    for menor que seu valor [b]atual[/b] de SORTE, voc\xEA foi sortudo e a situa\xE7\xE3o
+    correr\xE1 a seu favor. Se o valor for maior, voc\xEA teve azar e ter\xE1 que
+    lidar com p\xE9ssimas consequ\xEAncias. "
+  - "Sempre que 'Testar sua Sorte', diminua seu valor atual de SORTE em 1, isto eventualmente
+    dificultar\xE1 novas situa\xE7\xF5es sortudas. Portanto, tome cuidado para n\xE3o
+    depender demais de sua SORTE. "
+  - "Em alguns momentos do jogo, ser\xE1 dito para que 'Teste sua Sorte' e as consequ\xEAncias
+    em caso de sucesso ou falha. Contudo, durante o combate, voc\xEA tem a op\xE7\xE3o
+    de usar sua SORTE para agravar um ferimento causado por voc\xEA, ou diminuir
+    o dano causado a voc\xEA por outra criatura. "
+  - "Caso tenha acertado um ataque, 'Teste sua Sorte' e, caso seja sortudo, inflige
+    um total de 4 de dano na ENERGIA do advers\xE1rio. Contudo, caso seja azarado,
+    causar\xE1 apenas um total de 1 de dano, ao inv\xE9s dos habituais 2 de dano
+    em um ataque regular. "
+  - "Se a criatura acertou um ataque em voc\xEA, pode 'Testar sua Sorte' e, se tiver
+    sorte, voc\xEA conseguiu evitar parte do dano que lhe seria causado, recebendo
+    apenas 1 de dano em sua ENERGIA. Se foi azarado, o golpe foi mais forte que esperava
+    e voc\xEA recebe 1 de dano adicional, al\xE9m dos 2 de dano que receberia por
+    um ataque bem sucedido de seu advers\xE1rio. "
+  - "Seus pontos de PODER n\xE3o mudar\xE3o muito durante sua jornada Ocasionalmente
+    certo ponto da hist\xF3ria ou item pode aumentar ou diminuir os valores. O uso
+    de uma Arma M\xE1gica tamb\xE9m pode aumentar seu PODER. "
+  - "Sua ENERGIA mudar\xE1 bastante durante a aventura, seja por combate ou realiza\xE7\xE3o
+    de tarefas \xE1rduas. Durante o curso da hist\xF3ria, voc\xEA ser\xE1 apresentado
+    a oportunidades para que recupere seus pontos de ENERGIA de v\xE1rias maneiras. "
+  - "Por fim, durante toda a aventura, ser\xE3o concedidas adi\xE7\xF5es a seus pontos
+    de SORTE, quando for particularmente sortudo. "
+  - "Estas foram todas as instru\xE7\xF5es necess\xE1rias para finalmente entrar
+    no Torneio dos Campe\xF5es. Qualquer outra instru\xE7\xE3o ser\xE1 apresentada
+    durante o momento certo, mas caso deseje relembrar estas instru\xE7\xF5es, basta
+    acessar o menu de configura\xE7\xF5es a qualquer momento do jogo. "
+  - "Deseja repetir as intru\xE7\xF5es ou est\xE1 pronto para iniciar sua jornada? "
+  - "Voc\xEA j\xE1 est\xE1 pronto. Boa sorte na Prova dos Campe\xF5es! "
+  introTexts:
+  - "\xC9 mais um dia quent\xEDssimo e a temperatura no tombadilho escuro e pegajoso
+    \xE9 insuport\xE1vel. O ar est\xE1 denso com o cheiro acre dos corpos suados.
+    N\xE3o \xE9 permitido falar e o \xFAnico barulho ouvido al\xE9m do rangido mon\xF3tono
+    do navio, \xE9 o do met\xF3dico e agudo estalar do chicote, e do agoniado grito
+    que se segue. "
+  - "\u201CRemem com mais for\xE7a, seus cachorros!\u201D grita o capataz caolho,
+    assim que estala seu chicote mais uma vez. \u201CAproveitem esta viagem agrad\xE1vel
+    enquanto podem, porque v\xE3o desejar estar de volta a bordo depois de um ou
+    dois dias no lugar para onde est\xE3o indo!\u201D "
+  - "Acorrentado a um banco e se esfor\xE7ando muito no remo que puxa com outros
+    dois escravos da embarca\xE7\xE3o, sua mente vagueia de volta ao desafortunado
+    dia h\xE1 uma semana, quando foi capturado.  "
+  - "Voc\xEA tinha deixado Porto Blacksand num barco pequeno para navegar em dire\xE7\xE3o
+    sul, ao longo da costa da Ba\xEDa das Ostras. Por azar, uma grande embarca\xE7\xE3o
+    apareceu no horizonte, indo em sua dire\xE7\xE3o. Ela deslizou firmemente para
+    mais perto e n\xE3o demorou muito para que seu barco fosse esmagado debaixo da
+    proa e voc\xEA fosse for\xE7ado a mergulhar no mar. "
+  - "N\xE3o havia nada que pudesse fazer, a n\xE3o ser subir pela corda que lhe foi
+    lan\xE7ada, j\xE1 que seu barco tinha se tornado nada mais que uns poucos peda\xE7os
+    de madeira, flutuando sem rumo no mar. Seria in\xFAtil debater-se, uma vez que
+    uma tripula\xE7\xE3o de 20 assassinos insens\xEDveis o cercava. "
+  - "Uma voz rude atr\xE1s deles ordenou-lhes que se dispersassem. Um homem feio,
+    com cicatrizes no rosto, sorrindo maliciosamente e cuspindo no ch\xE3o a saliva
+    do fumo de mascar apareceu. Seus dentes eram quebrados e escuros, e uma lufada
+    de mau cheiro de suas roupas sujas flutuou na brisa. "
+  - "\u201CCapit\xE3o Barletta sempre entrega as mercadorias. Voc\xEA substituir\xE1
+    o homem que morreu ontem de chicotadas. Foi \xF3timo ter raptado um marinheiro
+    Deve ser meu dia de sorte, mas n\xE3o diria que \xE9 o seu\u201D. O capit\xE3o
+    soltou uma gargalhada, que era como uma longa exala\xE7\xE3o ruidosa e ent\xE3o
+    gritou uma ordem para seu imediato. "
+  - "\u201CLeve este rato para ficar com os outros vermes l\xE1 embaixo.\u201D "
+  - "Desde aquele dia amaldi\xE7oado, voc\xEA permanece acorrentado, remando \xE0
+    beira de um colapso, rumo a um destino desconhecido. De repente, voc\xEA escuta
+    um grito de \u201CTerra \xE0 vista!\u201D e p\xF5e-se a imaginar que malef\xEDcio
+    lhe aguarda. Uma hora depois, sente o navio bater contra um quebra-mar e h\xE1
+    muita gritaria at\xE9 que ele finalmente atraca. "
+  - "Voc\xEA \xE9 arrancado do navio junto com os outros escravos e v\xEA sob a luz
+    brilhante do sol que est\xE1 numa pequena ilha. No topo da ilha, fica um castelo
+    sombrio e, pr\xF3ximo a ele, h\xE1 um anfiteatro semi-destru\xEDdo. Um homem
+    vestindo uma armadura preta entrega uma bolsa de moedas ao Capit\xE3o Barletta.
+    Satisfeito com seu pagamento, o ruidoso capit\xE3o manda seus homens de volta
+    ao navio e voc\xEA os v\xEA partir. "
+  - "O homem com a armadura preta d\xE1 um passo \xE0 frente, dizendo: \u201CVoc\xEAs
+    s\xE3o agora propriedade de Lord Carnuss. \xC9 uma honra morrer para seu prazer
+    na Arena da Morte, aqui na Ilha de Sangue. Somente um de voc\xEAs sobreviver\xE1.
+    Ele, ou ela, representar\xE1 Lord Carnuss, em Fang, no pr\xF3ximo Torneio dos
+    Campe\xF5es.\u201D "
+  - "\u201CO Bar\xE3o Sukumvit modificou seu labirinto mortal e est\xE1 oferecendo
+    agora 20.000 moedas de Ouro para quem atravess\xE1-lo. \xC9 claro que Lord Carnuss
+    vai ficar com o pr\xEAmio caso voc\xEAs atravessem, mas suas vidas ser\xE3o poupadas.\u201D "
+  - "\u201CA reputa\xE7\xE3o do Bar\xE3o Sukumvit sofreu imensamente no ano passado,
+    quando uma pessoa conseguiu atravessar o labirinto; por\xE9m agora ele se gaba
+    de que ningu\xE9m pode sobreviver a seu novo calabou\xE7o. Lord Carnuss gostaria
+    que um de voc\xEAs fizesse Sukimvit engolir suas palavras. Voc\xEAs devem compreender
+    que ele odeia a fama de seu irm\xE3o.\u201D "
+  - "\u201CAgora, sigam-me.\u201D "
+  - "Voc\xEA \xE9 conduzido para o castelo em cima da montanha, onde \xE9 trancafiado
+    numa cela nas profundezas das c\xE2maras inferiores. Quatro outros prisioneiros
+    est\xE3o dividindo sua cela: um an\xE3o robusto, um orc, um vigoroso homem que
+    medita e um careca grande e musculoso. "
+  - "A atmosfera \xE9 horr\xEDvel e poucas palavras s\xE3o trocadas, enquanto cada
+    um pondera sobre o combate iminente. Quarenta e dois escravos chegaram de navio
+    e apenas um vai sobreviver. O pr\xEAmio duvidoso \xE9 entrar num labirinto mortal. "
+  paragrafosGame:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &535771214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,6 +1862,7 @@ GameObject:
   - component: {fileID: 833159357}
   - component: {fileID: 833159356}
   - component: {fileID: 833159355}
+  - component: {fileID: 833159358}
   m_Layer: 5
   m_Name: TextOption1
   m_TagString: Untagged
@@ -1505,7 +1883,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 979424328}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1555,7 +1933,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 833159356}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 833159358}
+        m_TargetAssemblyTypeName: GameTest, Assembly-CSharp
+        m_MethodName: NextText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &833159356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1598,6 +1988,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833159353}
   m_CullTransparentMesh: 1
+--- !u!114 &833159358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833159353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c160987d217d09a44a2b546e2e81c5aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 504014654}
+  textArchive: {fileID: 504014658}
+  gameText: {fileID: 504014656}
+  textSelection: 0
 --- !u!1 &845168646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +2271,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 378285591}
   - {fileID: 504014655}
   - {fileID: 833159354}
   - {fileID: 2004586904}
@@ -2571,7 +2978,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 979424328}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3207,7 +3614,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 979424328}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
